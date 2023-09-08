@@ -4,12 +4,12 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 50px;
+    gap: 2rem;
 }
 
 @media (min-width: 768px) {
     .wrapper {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
         margin-bottom: 92px;
     }
 }
