@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
 .wrapper {
-    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 92px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+}
+
+.logo {
+
+}
+
+.time {
+  display: flex;
+  gap: 1rem;
+  color: #6E8098;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icon {
+  color: #6E8098;
+  position: relative;
+  top: 15px;
+}
+
+.title {
+  color: #19202D;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  color: #19202D;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.links {
+
+}
+
+.location {
+  color: #5964E0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.website {
+ color: #6E8098;
+ font-family: "Kumbh Sans", sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ text-decoration: none;
 }

@@ -1,4 +1,15 @@
 .App {
-  padding: 80px 120px;
+  padding: 60px 40px;
 }
 
+@media (min-width: 768px) {
+  .App {
+    padding: 80px 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App {
+    padding: 80px 80px;
+  }
+}
