@@ -43,7 +43,7 @@ const Jobs = () => {
           </div>
           <div>
             <h2 className="title">{item.position}</h2>
-            {/* <p lassName="description">{item.description}</p> */}
+            <p lassName="description">{item.description}</p>
           </div>
           <div className="links">
           <a href={item.website} className="website"><p>{item.company}</p></a>
