@@ -1,32 +1,32 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './jobs.css'
 import DataJobs from "../../data/data.json"
 import { BsDot } from "react-icons/bs"
 
 const Jobs = () => {
-  const [items, setItems] = useState([])
-  const [visibleItems, setVisibleItems] = useState(3)
-  const dataUrl = "../../data/data.json"
-  console.log("data", dataUrl)
+//   const [items, setItems] = useState([])
+//   const [visibleItems, setVisibleItems] = useState(3)
+//   const dataUrl = "../../data/data.json"
+//   console.log("data", dataUrl)
 
-  useEffect(() => {
-    fetch(dataUrl)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then((data) => {
-      console.log('Fetched data:', data); 
-      setItems(data);
-    })
-    .catch((error) => console.error('Error fetching data:', error));
-}, []);
+//   useEffect(() => {
+//     fetch(dataUrl)
+//     .then((response) => {
+//       if (!response.ok) {
+//         throw new Error('Network response was not ok');
+//       }
+//       return response.json();
+//     })
+//     .then((data) => {
+//       console.log('Fetched data:', data); 
+//       setItems(data);
+//     })
+//     .catch((error) => console.error('Error fetching data:', error));
+// }, []);
 
-  const loadMoreItems = () => {
-    setVisibleItems(visibleItems + 3)
-  }
+//   const loadMoreItems = () => {
+//     setVisibleItems(visibleItems + 3)
+//   }
   
   return (
       <div className="wrapper">
