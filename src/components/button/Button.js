@@ -4,7 +4,7 @@ import './button.css'
 const Button = () => {
   return (
     <div className="btn-wrapper">
-     <button className="btn">Load More</button>
+      <button className="btn" /*onClick={loadMoreItems}*/>Load More</button>
     </div>
   )
 }

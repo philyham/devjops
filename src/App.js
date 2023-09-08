@@ -1,8 +1,7 @@
 import './App.css';
 import Jobs from './components/jobs/Jobs';
-import Button from './components/button/Button';
 import Navbar from './components/navbar/Navbar';
-
+import Button from './components/button/Button';
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
      <Navbar />
      <div className="App">
       <Jobs />
-     <Button />
+      <Button />
      </div>
     </div>
   );
